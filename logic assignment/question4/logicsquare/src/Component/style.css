@@ -1,0 +1,110 @@
+ 
+
+.resource-management-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Light gray background */
+  }
+  
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: box-shadow 0.3s; /* Smooth transition for shadow */
+  }
+  
+  .overview {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-top-left-radius: 10px; /* Rounded corners */
+    border-bottom-left-radius: 10px; /* Rounded corners */
+  }
+  
+  .overview-section {
+    margin-bottom: 20px;
+  }
+  
+  .employees-list {
+    width: 65%;
+    padding: 20px;
+  }
+  
+  .employees-list h2 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Larger font size */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 18px; /* Larger font size */
+    position: relative; /* Relative positioning for buttons */
+    transition: transform 0.3s; /* Smooth transition for list items */
+  }
+  
+  ul li:hover {
+    transform: translateY(-3px); /* Move list item up on hover */
+  }
+  
+  ul li button {
+    margin-left: 10px; /* Add margin between buttons */
+    padding: 8px 12px; /* Adjust button padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for button background */
+  }
+  
+  ul li button.edit-btn {
+    background-color: #ffc107; /* Yellow color for edit button */
+    color: #212529; /* Dark text color */
+    border: 1px solid #ffc107; /* Yellow border */
+  }
+  
+  ul li button.delete-btn {
+    background-color: #dc3545; /* Red color for delete button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+  }
+  
+  ul li button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Smooth transition for input border color */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff; /* Highlight input border on focus */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for button background */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
